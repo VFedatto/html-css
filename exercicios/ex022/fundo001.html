@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Imagem de Fundo</title>
+    <style>
+        body{
+            background-image: url();
+        }
+
+        div.quadrado{
+            display: inline-block;
+            background-color: rgb(245, 227, 220);
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+        }
+        div#q1{
+            background-color: aliceblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#q3{
+            background-image: url('imagens/pattern003.png');
+        }
+
+        div.uau{
+            background-image: url(imagens/wallpaper002.jpg);
+            background-color: rgb(245, 227, 220);
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 500px;
+            height: 100px;
+            margin: 10px;
+        }
+        #r1{
+            background-position: right top;
+        }
+        #r2{
+            background-position: bottom top;
+        }
+        #r3{
+            background-position: center center;
+        }
+        #r4{
+            background-position: bottom center;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado"id="q2"></div>
+    <div class="quadrado"id="q3"></div>
+    <h1>Posição dos fundos </h1>
+
+    <div class="uau" id="r1"></div>
+    <div class="uau" id="r2"></div>
+    <div class="uau"id="r3"></div>
+    <div class="uau"id="r4"></div>
+
+
+
+
+</body>
+</html>
